@@ -15,22 +15,22 @@ Tags also added to denote specific test types/areas - currently only 3 tags in u
 1. Navigate to Challenging DOM Page
 2. Perform an accessibility scan of the web page (NOTE: this test will always fail but this is expected)
 
-I've also integrated these tests in an Azure DevOps pipeline so they can be ran as part of a regression pack or on a schedule (for now a schedule has not been set). Azure DevOps project can be found using this link and the project is public so users will be able to view the Build & Release pipelines along with test results. Lastly - I've noticed that if you are not signed into Azure DevOps the release sometimes does not allow you to view the Test Logs so I have included screenshots within this ReadMe to demo: https://dev.azure.com/adammcclintock0222/HerokuChallenge%20-%20Selenium_.NET_SpecFlow/_release?_a=releases&view=mine&definitionId=1
+I've also integrated these tests in an Azure DevOps pipeline so they can be ran as part of a regression pack or on a schedule (for now a schedule has not been set). Azure DevOps project can be found using this link and the project is public so users will be able to view the Build & Release pipelines along with test results. Lastly - I've noticed that if you are not signed into Azure DevOps the release sometimes does not allow you to view the Test Logs so I have included screenshots within this ReadMe to demo: (https://dev.azure.com/adammcclintock0222/Selenium_AXE-Accessibility_POM_Framework/_releaseProgress?releaseId=2&_a=release-pipeline-progress)
 
-image
+![image](https://user-images.githubusercontent.com/58269427/220155443-2dcc7aed-0687-4ee4-b5a3-540bdefe23fb.png)
 
 NOTE: AXE Acessibility test will almost always fail due to the Heroku Challenging DOM page not being developed with accessibility in mind, I'd be surprised if we ever see that test passing :)
 
-UI Tests - 11 Total - 100% Pass:
+UI Tests - 1 Total - 100% Pass:
 
-image
+![image](https://user-images.githubusercontent.com/58269427/220155646-501d0593-53a5-44c0-8fbe-dfce0eaf3c6e.png)
 
 AXE Accessibility Tests - 1 Total - 0% Pass (Expected):
 
-image
+![image](https://user-images.githubusercontent.com/58269427/220155791-4a5871e3-f1cb-4695-9815-da95fb618986.png)
 
 I've also included a HTML report that is attached upon an accessibility test failure for the user to review - can access via the attachments tab.
 
-image
+![image](https://user-images.githubusercontent.com/58269427/220155948-58bbb663-fa68-4800-a684-fc93654a4345.png)
 
-image
+![image](https://user-images.githubusercontent.com/58269427/220156016-e7617f34-5823-4f29-b03d-783039fbc2f4.png)
